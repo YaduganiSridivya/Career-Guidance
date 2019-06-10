@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CecActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="250dp"
+
+            android:src="@drawable/cec" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CEC stream"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#673AB7"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CEC Group:\n
+C.E.C. group chiefly consists of the Civics, Economics and Commerce subjects.
+Most of the people believe that the chances are less with compare than other
+branches such as M.P.C, BiPC and etc. But C.E.C. group has better opportunities
+than other groups.
+To get the Government jobs the above group is very useful to the scholars. Pupils
+may enter into the accounting field by the courses ICWA / CA. For the early career
+C.E.C group is very useful for the state wise secretariat jobs / government jobs
+C.E.C. pupils have the more benefits."
+            android:textStyle="normal"
+            android:textSize="20dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="\nGood courses to opt after intermediate CEC stream:\n
+1. B Com (Honours in Accounting and Finance)\n
+2. B. Com (Accounting &amp; Finance)- BAF\n
+3. B. Com (Banking and Insurance)- BBI\n
+4. B. Com (Banking and Insurance)\n
+5. B.B.A. - Bachelor of Business Administration\n
+6. B.B.M (Bachelor of Business Management)\n
+7. B.B.M. (Shipping)\n
+8. B.Com(Computer Application)\n
+9. B.Com(Financial Accounting)\n
+10. B.Com(Financial Markets)-BFM\n
+11. B.Com(Hons.) in e-commerce, Economics and Financial Accounting\n
+12. B.Com(Commerce)\n
+13. B.M.M. ( Bachelors Degree in Mass Media)\n
+14. B.Com(Honors) and all other B.com\n
+15. B.B.A.\n"
+
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            android:textColor="#000000"/>
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Entrance Exams\n 1.ca exams\n2.B.com(Hons)Entrance Exam"
+
+
+            android:textSize="20dp"
+
+            android:textColor="#000000"
+            />
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

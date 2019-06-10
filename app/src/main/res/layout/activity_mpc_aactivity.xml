@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MpcAactivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mpctitle"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MPC STREAM"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MPC is a science stream which has a plenty of oppurcunities
+the core subjects in it are Mathematics,Physics,Chemitry snd languages"
+
+            android:textColor="#000000"
+            android:textSize="15sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CAREER AFTER MPC"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Courses after 12th MPC Group\n
+        1 B.E. or B.Tech.\n
+        2 Diploma in Engineering\n
+        3 Merchant Navy courses\n
+        4 B.Arch.\n
+        5 B.Sc. courses\n
+        6 B Pharmacy\n
+        7 BCA\n
+        8 CPL Training\n
+        9 AME Training Course"
+            android:textColor="#000000"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="entrance exam"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.Joint Entrance Examination (JEE) Main\n2.JEE Advanced.
+3.bitsat\n4.State level Engineering Entrance Exam\n5.Bitsat exam"
+
+            android:textAllCaps="true"
+            android:textSize="20sp"
+
+            android:textColor="#000000"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChemistryActivity"
+    android:background="@drawable/grad_bg">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:src="@drawable/subchemistry"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="chemistry"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="#ffffff" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chemistry is the scientific discipline involved with elements and compounds composed of atoms, molecules and ions: their composition, structure, properties, behavior and the changes they undergo during a reaction with other substances.
+In the scope of its subject, chemistry occupies an intermediate position between physics and biology.[3] It is sometimes called the central science because it provides a foundation for understanding both basic and applied scientific disciplines at a fundamental level"
+           android:textColor="#ffffff"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chemistry courses after 10th class "
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.inter mpc"
+            android:textAllCaps="true"
+            android:onClick="intermpcche"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#ffffff"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.inter bipc  "
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:onClick="interbipcchemistry"
+            android:textSize="20sp"
+            android:textColor="#ffffff"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.Diploma in Engineering "
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#ffffff"/>
+
+    </LinearLayout>
+</ScrollView>

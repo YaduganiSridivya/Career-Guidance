@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DoctorActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="250dp"
+
+            android:src="@drawable/doctor" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="doctor"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#673AB7"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Doctors provide diagnoses, treatments, and counseling
+to individuals with illnesses, diseases, or injuries. Some
+of their many responsibilities include examining patients,
+collecting patient information, performing diagnostic
+tests, and discussing test results. Physicians fall into two
+main categories: medical doctors (M.D.) and doctors
+of osteopathic medicine (D.O.). Both types of doctors
+treat patients, but D.O.s also use preventive medicine
+and holistic care methods. Within the medical field,
+doctors most often have a field of specialization.
+There is great reward in being able to help people feel
+better and perhaps even save their lives. The education
+required to become a medical doctor is long and may be
+expensive. Few doctors are able to limit their work hours
+to normal business days; most work irregular hours
+including during the night and on the weekends."
+            android:textStyle="normal"
+            android:textSize="25dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Types of Doctor"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            android:textColor="#9C27B0"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="different professions of Doctor\n
+1.	Audiologist\n
+2.	Allergist\n
+3.	Anesthesiologist\n
+4.	Cardiologist\n
+5.	Dentist\n
+6.	Dermatologist\n
+7.	Endocrinologist\n
+8.	Epidemiologist\n
+9.	Gynecologist\n
+10.	Immunologist\n
+11.	Medical Geneticist\n
+12.	Microbiologist\n
+13. Neonatologist\n
+14. Neurologist"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            android:textColor="#000000"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Qualification"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#673AB7"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.inter(bipc)"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="20dp"
+            android:onClick="doctorbip"
+
+            android:textColor="#000000"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Entrance Exams"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#673AB7"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.Neet"
+
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            />
+
+
+
+    </LinearLayout>
+
+</ScrollView>

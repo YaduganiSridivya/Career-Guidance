@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MecActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bipcstream"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MEC STREAM"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Biology group is also known as PCB group. Students in this group usually have Physics, Chemistry and Biology as main subjects. Apart from that, there may exist other subjects such as English, PE (Physical Education), Computer Science, IT or other elective subject.
+"
+
+            android:textColor="#000000"
+            android:textSize="15sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CAREER AFTER MEC"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="After completing intermediate with MEC group, the best courses which you will pursue are:-
+        1.BCA
+        2.BBM
+        3.BBA
+        4.CA
+        5.CS
+        6.BFA
+        7.ICWAI
+        8.Anchoring courses
+        9.Bachelor in journalism etc."
+            android:textColor="#000000"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="entrance exam"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.Different levels of CA\n2.B.Com(hons)"
+
+            android:textAllCaps="true"
+            android:textSize="20sp"
+
+            android:textColor="#000000"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

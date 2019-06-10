@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JeemainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="250dp"
+
+            android:src="@drawable/jeemain" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JEE Mains"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#673AB7"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Joint Entrance Examination (JEE) MAIN will be conducted by the NTA from 2019 onwards. This
+Examination was being conducted by the Central Board of Secondary Education (CBSE) till 2018.             
+                 
+JEE Main is applicable for admission to NITs, IIITs and CFTIs participating though Central Seat Allocation
+Board subject to the condition that the candidate should have secured at least 75% marks in the 12th class
+examination, or be in the top 20 percentile in the 12th class examination conducted by the respective
+Boards. For SC/ST candidates the qualifying marks would be 65% in the 12th class examination."
+            android:textStyle="normal"
+            android:textSize="20dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Eligibility criteria"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            android:textColor="#9C27B0"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text=""
+
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            android:textColor="#000000"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age criteria : All candidates (General Category) born on or after 1st of October 1994 are
+eligible for JEE Mains 2019. For SC, ST and PwD candidates, the age limit has been relaxed
+to 5 years and should have born on or after 1st of October 1989 for being eligible.
+2. Total attempts: The students can avail a maximum of three consecutive attempts for JEE
+Mains and two consecutive attempts for JEE Advanced. The first attempt is taken soon after
+12th board exams followed by the other attempts in consecutive years. Exam will be held
+twice a year so total attempts a candidate can appear for are six.
+3. Subjects in the qualifying exam: It is mandatory for all students appearing for JEE Mains that
+they must have pursued at least 5 subjects with Physics and Maths as their core subjects in
+their qualifying examinations. Students who have studied less than 5 subjects in their
+qualifying exam are not eligible for JEE Main. Physics, Mathematics, Chemistry, Language
+and one more subject of choice is required as eligibility for JEE Main. To make it more clear
+for B.E./ B.Tech the subjects included are language, Physics, Mathematics,
+Chemsitry/Biology/Biotechnology/Technical Vocational Subject, and any other subject. For
+B.Arch/B.Planning the subjects included are Language, Physics, Mathematics (mandatory),
+Chemistry/Biology/Biotechnology/Technical Vocational Subject, and any other subject."
+
+
+            android:textSize="20dp"
+
+            android:textColor="#000000"
+            />
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

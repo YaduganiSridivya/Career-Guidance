@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JobActivity"
+    android:background="@drawable/blue">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+
+            android:text="Select Profession"
+            android:textSize="20sp"
+            android:textAlignment="center"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:id="@+id/proflist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+
+                android:text="Engineering"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:id="@+id/eng"
+
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+
+
+                android:text="Doctor"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:id="@+id/doctor"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+
+                android:text="Teacher"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:id="@+id/teacher"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+
+                android:text="Pharmacy"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:id="@+id/pharma"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+
+                android:text="Goverment Job"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/history"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+
+                android:text="Nurse"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:id="@+id/biology"
+                />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/sub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="submit"
+                android:textColor="@color/colorPrimary"
+                />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

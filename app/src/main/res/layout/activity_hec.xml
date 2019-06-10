@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HecActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bipcstream"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HEC STREAM"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:textColor="#000000"
+            android:textSize="15sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CAREER AFTER HEC"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="\nGood courses to opt after intermediate HEC stream:\n
+1. B Com (Honours in Accounting and Finance)\n
+2. B. Com (Accounting &amp; Finance)- BAF\n
+3. B. Com (Banking and Insurance)- BBI\n
+4. B. Com (Banking and Insurance)\n
+5. B.B.A. - Bachelor of Business Administration\n
+6. B.B.M (Bachelor of Business Management)\n
+7. B.B.M. (Shipping)\n
+8. B.Com(Computer Application)\n
+9. B.Com(Financial Accounting)\n
+10. B.Com(Financial Markets)-BFM\n
+11. B.Com(Hons.) in e-commerce, Economics and Financial Accounting\n
+12. B.Com(Commerce)\n
+13. B.M.M. ( Bachelors Degree in Mass Media)\n
+14. B.Com(Honors) and all other B.com\n
+15. B.B.A.\n"
+
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="entrance exam"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.B.com(hons)\n"
+
+            android:textAllCaps="true"
+            android:textSize="20sp"
+
+            android:textColor="#000000"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

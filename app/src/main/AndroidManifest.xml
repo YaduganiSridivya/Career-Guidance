@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hackathonproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/careericon"
+        android:label="CAREER GUIDANCE"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".NeetActivity"></activity>
+        <activity android:name=".TeacherActivity" />
+        <activity android:name=".IitActivity" />
+        <activity android:name=".CommerceActivity" />
+        <activity android:name=".HecActivity" />
+        <activity android:name=".MecActivity" />
+        <activity android:name=".BipcActivity" />
+        <activity android:name=".JeemainActivity" />
+        <activity android:name=".CecActivity" />
+        <activity android:name=".EconomicsActivity" />
+        <activity android:name=".ChemistryActivity" />
+        <activity android:name=".PhysicsActivity" />
+        <activity android:name=".MathsActivity" />
+        <activity android:name=".PasswordActivity" />
+        <activity android:name=".DoctorActivity" />
+        <activity android:name=".EngineeringActivity" />
+        <activity android:name=".RegistrationActivity" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".MpcAactivity" />
+        <activity android:name=".SplashActivity" />
+        <activity android:name=".ImagesliderActivity" />
+        <activity android:name=".QualificationActivity" />
+        <activity android:name=".EntranceActivity" />
+        <activity android:name=".JobActivity" />
+        <activity android:name=".SubjectActivity" />
+        <activity
+            android:name=".SecondActivity"
+            android:label="@string/title_activity_second"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

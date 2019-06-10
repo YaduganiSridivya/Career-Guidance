@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BipcActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bipcstream"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BiPC STREAM"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Biology group is also known as PCB group. Students in this group usually have Physics, Chemistry and Biology as main subjects. Apart from that, there may exist other subjects such as English, PE (Physical Education), Computer Science, IT or other elective subject.
+"
+
+            android:textColor="#000000"
+            android:textSize="15sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CAREER AFTER BiPC"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+android:text="1.MBBS (BACHELOR OF MEDICINE, BACHELOR OF SURGERY)
+2. VETERINARY SCIENCES
+3.BAMS (BACHELOR OF AYURVEDA, MEDICINE AND SURGERY)
+4.BDS (BACHELOR OF DENTAL SURGERY)
+5.PHARMACY
+6. PHARM D
+7.B SC
+8. DIPLOMA COURSES"
+            android:textColor="#000000"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="entrance exam"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="25sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.NEET(NationalEligibity Entrance exam)\n2.jipmer.
+3.aims\n4.State level entrance exam for other medical course\n"
+
+            android:textAllCaps="true"
+            android:textSize="20sp"
+
+            android:textColor="#000000"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

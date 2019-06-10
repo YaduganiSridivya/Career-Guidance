@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "383641886959",
+    "firebase_url": "https://career-guidance-44772.firebaseio.com",
+    "project_id": "career-guidance-44772",
+    "storage_bucket": "career-guidance-44772.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:383641886959:android:5cd588a8dfe0b770",
+        "android_client_info": {
+          "package_name": "com.example.hackathonproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "383641886959-f7vn33ot6p2qno5b2976lof0tg5m9f2v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUUOm-ZlW7lgyHjeCfPlwpzkZ7NrJ73Lg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
